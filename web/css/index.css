@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+body{
+	//background-image: url(../images/fon.jpg);
+        background-color: #E5CAAD;
+	
+}
+
+#wrapper{	
+	background-image:url(../images/thumbnail.jpg);
+	width:800px;
+	height:480px;
+	margin:0 auto;
+	border-radius:10px;
+	margin:100px auto;
+	position: relative;
+}
+
+#right{
+	color:#D1965A;
+	width:370px;
+	height:100px;
+	margin:10px;
+	float:right;
+}
+
+#form{
+	width: 200px;
+	height: 50px;
+	padding:10px;
+	margin:15px;
+	background-color: #D1965A;
+	border-radius:5px;
+	position: absolute;
+	top:120px;
+	right: 20px;
+	
+}
+
+p{
+	margin: 5px
+}
+
+.input1 {
+    
+	
+background-color:#FFEBA8;
+}
+
+.input2 {
+	
+background-color:#FFEBA8;
+}

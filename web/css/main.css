@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+
+body{
+	//background-image: url(../images/fon.jpg);
+        background-color: #E5CAAD;
+	
+}
+
+.wrapper{	
+	background-color: #FAF5E2;
+	width:1000px;
+	height:1000px;
+	margin:0 auto;
+	
+}
+
+.sidebar{
+        font: Bart 18px;
+	width: 180px;
+	height: 480px;
+	//border: thin solid;
+	float:left;
+	margin: 50px 20px;
+	padding: 20px;
+        background-color:#D2982D;
+        border-radius: 10px;
+        
+}
+
+.content{
+   // background-color: grey;
+	width: 700px;
+	height: 700px;
+	//border: thin solid;
+	float: right;
+	margin: 10px;
+	padding: 10px;
+}
+
+
+
+#form {
+	width:900px;
+	height: 40px;
+	padding: 2px;
+	margin: 0 auto;	
+        background-color: #D2982D;
+}
+
+#form form{
+    margin: 9px;
+    
+    
+}
+
+.book_info{
+        background-color: #FFEEBC;
+        width:200px;
+	height: 410px;
+	padding: 10px;
+	margin: 5px;
+        display: inline-block;
+        border-radius: 10px;
+        font-size: 14px;
+        font-family: sans-serif;
+}
+
+.book_info a{
+    color: blue;
+}
+
+.book_info div{
+        width:200px;
+	
+	padding: auto;
+	margin: auto;
+        
+}
+
+#lupa{
+	float:left;
+	margin:o 10px;
+}
+
+#form input, select {
+	display: inline;
+	
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar a:hover {
+    text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    color: red; /* Цвет ссылки */
+   } 

@@ -1,0 +1,31 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Library</title>
+        <link href="css/main.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <img src="images/newlogo.jpg" height="132" width="1000">
+
+
+            <div id="form">
+                <form action="SearchServlet" enctype="application/x-www-form-urlencoded">
+                    <div>
+                        <input class="input1" type="text" name="searchString" size="100">
+                        <input class="input2" type="submit" value="Поиск">
+                        <select name ="searchType">
+                            <option value="title">Название</option>
+                            <option value="author">Автор</option>
+                        </select>		
+                    </div>
+
+                </form>
+            </div>
+            
+            <p align="center"><em>Привет, ${userName}!</em></p>
+            <br>
+            <p align="center"><a href="addBook.jsp">Добавить книгу</a></p>
